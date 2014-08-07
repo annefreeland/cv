@@ -14,6 +14,7 @@
 	font-size: 40px;
 	font-weight: lighter;
 	}
+	
 .tagline {
 	font-size: 18px;
 	color: grey;
@@ -46,9 +47,19 @@ table, tr, td {
 	line-height: 160%;
 	}
 	
+table {
+	margin-bottom: 15px
+	}
+
+hr {
+	margin-top: -20px;
+	padding-bottom: 10px;
+	border: 0;
+	height: 1px;
+	}
+
+	
 p {
-	padding-bottom: 3px;
-	padding-top: 3px;
 	font-family: georgia, serif;
 	font-size: 15px;
 	color: #090909;
@@ -61,13 +72,13 @@ p {
 	padding-right: 10px;
 }
 
-h1, h2, strong {
+h1, h2, h3, strong {
 	font-family: lato, sans-serif;
 	color: #090909;
 }
 
-.pagetitle {font-size: 50px;
-	font-family: baskerville, serif;
+.pagetitle {font-size: 40px;
+	font-family: lato, sans-serif;
 	font-weight: lighter;
 	padding-bottom: 40px;
 	}
@@ -76,28 +87,34 @@ h2 {
 	padding-top: 20px;
 	padding-bottom: 0;
 	font-weight: lighter;
-
 	}
 
-strong {font-size: 16px;}
+strong, h3 {
+	font-size: 16px;
+	font-weight: 600;
+	}
 
 a:link, a:visited, a:hover, a:focus {
 	border-bottom: 1px solid #090909;
 	text-decoration: none;
 	color: #090909;
 	}
-
-ul {
+	
+nav ul {
 	list-style-type: none;
 	margin-left: -35px;
 	line-height: 180%;
 	font-size: 16px;
 	font-family: lato, sans-serif;
+	color: #090909;
+	}
+
+nav ul a:link {border-bottom: 0;
+		color: #090909;
+		}
+		
+nav ul a:active {
 	color: grey;
 	}
 
-ul a:link {border-bottom: 0;
-		color: grey;
-		}
-		
-.space {padding-bottom: 10px;}
+
