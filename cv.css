@@ -7,12 +7,14 @@
   width: 20%;
   position: fixed;
   padding-left: 40px;
+  padding-top: 20px;
 	}
 
 .content {
 	width: 80%
 	margin: 0px auto;
-	padding: 20px 40px 40px 25%;
+	padding-left: 30%;
+	padding-top: 20px
 	}
   
 .title {
@@ -77,10 +79,10 @@ h1, h2, h3, strong {
 	color: #090909;
 }
 
-.pagetitle {font-size: 40px;
+.pagetitle {font-size: 30px;
 	font-family: lato, sans-serif;
 	font-weight: lighter;
-	padding-bottom: 40px;
+	padding-bottom: 45px;
 	}
 
 h2 {
@@ -117,21 +119,46 @@ nav ul a:active {
 	color: grey;
 	}
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 
 
 .sidebar {
   width: 100%;
-  float: left;
   margin: 0 auto;
+  padding: 30px;
   position: initial;
 	}
 	
 .content {
 	width: 100%;
-	float: left;
 	margin: 0 auto;
 	position: initial;
-	}}
-  
+	padding: 15px;
+	}
 
+.title {
+	text-align: center;
+	font-size: 70px;
+	}
+	
+.tagline {
+	text-align: center;
+	font-size: 26;
+	}
+
+nav ul {
+	font-size: 30px;
+	color: grey;
+	padding-left: 50px;
+	padding-bottom: 60px;
+	}
+}
+  
+@media screen and (min-width: 1000px) {
+
+.content {
+	padding-right: 15%;
+	padding-left: 25%;
+	}
+
+	}
