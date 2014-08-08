@@ -21,6 +21,14 @@ html {
 	
 #sidebarhr {margin-top: -25px;}
 
+nav {padding-bottom: 50px}
+
+hr {
+	height: 1px;
+    border: 0;
+    border-top: 1px solid lightgrey; 
+   }
+
 .socialmedia {
 	color: lightgrey !important;
 	font-size: 30px;
@@ -31,7 +39,7 @@ html {
 
 #socialmedia {
 	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 0px;
 	}
 
 #academia {
@@ -58,19 +66,21 @@ html {
 
 #email {
 	font-family: lato, sans-serif;
-	color: grey;
+	color: lightgrey;
 	}
 	
 #email a:hover {
 	border-bottom: 0;
 	cursor:pointer;
+	color: grey;
 	}
 
 .content {
 	float: right;
-	border-left: 1px solid grey;
+	border-left: 1px solid lightgrey;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	height: 100%;
 	}
   
 .title {
@@ -182,6 +192,7 @@ nav ul a:hover {
 
 @media screen and (max-width: 800px) {
 
+nav {padding-bottom: 0px}
 
 .sidebar {
   width: 100%;
@@ -221,6 +232,7 @@ nav ul {
 	
 #email {
 	text-align: center;
+	color: lightgrey !important;
 		}
 
 .line {
@@ -238,7 +250,7 @@ nav ul {
 	
 }
 
-@media screen and (min-width: 801px) and (max-width: 950px) {
+@media screen and (min-width: 801px) and (max-width: 1000px) {
 
 .content {
 	padding-left: 15px;
@@ -248,22 +260,32 @@ nav ul {
 	}
 
 
-@media screen and (min-width: 951px) and (max-width: 1050px) {
+@media screen and (min-width: 1001px) and (max-width: 1100px) {
 
 .content {
-	padding-left: 40px;
+	padding-left: 35px;
 	padding-right: 30px;
-	width: 72%;
+	width: 76%;
 	}
 
 	}
 
-@media screen and (min-width: 1051px) and (max-width: 1199px) {
+@media screen and (min-width: 1101px) and (max-width: 1150px) {
+
+.content {
+	padding-left: 70px;
+	padding-right: 110px;
+	width: 80%;
+	}
+
+	}
+	
+@media screen and (min-width: 1151px) and (max-width: 1199px) {
 
 .content {
 	padding-left: 100px;
 	padding-right: 150px;
-	width: 75%;
+	width: 80%;
 	}
 
 	}
