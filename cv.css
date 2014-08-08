@@ -184,7 +184,7 @@ nav ul a:hover {
 	color: #090909;
 	}
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
 
 
 .sidebar {
@@ -196,7 +196,7 @@ nav ul a:hover {
 	}
 	
 .content {
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 	position: initial;
 	padding: 15px;
@@ -210,11 +210,12 @@ nav ul a:hover {
 .tagline {
 	text-align: center;
 	font-size: 26;
-	padding-bottom: 10px;
+	padding-bottom: 0;
 	}
 
 nav ul {
-	font-size: 24px;
+	font-size: 22px;
+	line-height: 150%;
 	color: grey;
 	padding-bottom: 0;
 	text-align: center;
@@ -224,13 +225,15 @@ nav ul {
 	text-align: center;
 	padding-top: 0 !important;
 	}
+	
+#email {text-align: center;}
 
 .line {
 	display: block;
 	margin-bottom: 50px;
 }
 
-#email {text-align: center;}
+
 
 .content {border: 0;}
 
@@ -238,7 +241,7 @@ nav ul {
 
 }
 
-@media screen and (min-width: 801px) and (max-width: 999px) {
+@media screen and (min-width: 901px) and (max-width: 999px) {
 
 .content {
 	border: margin: 
