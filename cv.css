@@ -84,7 +84,7 @@ hr {
 	height: 100%;
 	}
 	
-#pagetitle {
+#top {
 	padding-top: 30px !important;
 	}
   
@@ -144,7 +144,7 @@ h1, h2, h3, strong {
 	color: #090909;
 }
 
-#pagetitle {font-size: 30px;
+#top {font-size: 30px;
 	font-family: lato, sans-serif;
 	font-weight: lighter;
 	padding-bottom: 45px;
